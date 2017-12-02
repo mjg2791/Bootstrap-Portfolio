@@ -20,27 +20,62 @@
     <header>
         <div class="conainer-fluid m-auto p-0">
             <nav class="row navbar .navbar-expand-lg justify-content-between m-0 p-0">
-            <div class="navbar-brand col-md-6 col-sm-12" id="logo">Maria J. Gonzalez</div>
-            <div class="nav navbar-right nav-fill">
-              <a class="nav-item nav-link active" href="index.html">About</a>
-              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-              <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
+              <div class="navbar-brand col-md-6 col-sm-12" id="logo">Maria J. Gonzalez</div>
+                <div class="nav navbar-right nav-fill">
+                  <a class="nav-item nav-link active" href="index.html">About</a>
+                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </nav>
     </header>
 
-
-
-    <!--content-->
+    <!--content is here-->
+   
+    <div class="container-fluid m-auto" id="content">
+   
+    <!-- Content -->
     
+    <div class="row d-flex  justify-content-between">
+    
+    <!-- this is where you ask for the input -->
+    
+    <div class="col-md-8 col-sm-12 main-section">
 
+      <h1>Contact</h1>
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
+      </div>
 
+      <div class="col-md-4 col-sm-12 m-0 p-0">
+            <div class="sidebar">
+              <h2>Connect with Me</h2>
+                <a href="https://github.com/mjg2791" target="_blank"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+                <a href="https://www.linkedin.com/in/mjgonzalez27//" target="_blank"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+                <a href="https://stackexchange.com/users/12235311/maria" target="_blank"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+            </div>
+          </div>
 
-
-
-    <footer class="navbar navbar-default navbar-static-bottom" style="margin: 0; border-radius: 0; border: 0; border-top: 2px #bbb solid;">
-        <h4 style=" display: flex; align-items: center; justify-content: center; color: #555; padding-top: 5px;"> &copy; Maria J. Gonzalez
-        </h4>
-    </footer>
+      <footer class="footer">
+            <div class="container">
+              <span class="text-muted">&copy; Maria Joaquina Gonzalez</span>
+            </div>
+          </footer>
 
 </body>
 
